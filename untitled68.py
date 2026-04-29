@@ -7,7 +7,7 @@ print("STEAM PRICE CHECKER 🔧")
 print("=" * 50)
 
 # Search for game
-search_query = input("Enter game name: ").strip()
+search_query = input("Enter game link, ID or full name: ").strip()
 
 # Search via Steam API
 search_url = f"https://store.steampowered.com/api/storesearch/?term={search_query}&cc=us&l=english"
